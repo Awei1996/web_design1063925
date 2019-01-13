@@ -1,0 +1,57 @@
+@charset "UTF-8";
+* {
+  font-family: 微軟正黑體;
+  font-weight: 100;
+}
+
+body {
+  height: 1000px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 900;
+}
+
+header.jumbotron {
+  margin-bottom: 10px;
+  text-align: center;
+  background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/11221530_1624778614445571_4681777115947684350_n.png?_nc_cat=111&_nc_ht=scontent-tpe1-1.xx&oh=342f32e1ba52fc6e5d09bd8298f285ce&oe=5CD98D95);
+  background-size: cover;
+  background-attachment: fixed;
+}
+header.jumbotron .container {
+  color: white;
+  padding: 200px 0px;
+}
+header.jumbotron hr {
+  max-width: 300px;
+  border: solid 2px #c4031a;
+}
+header.jumbotron h4 {
+  color: rgba white, 0.8;
+}
+
+section {
+  padding: 50px 0px;
+}
+
+section#section_purpose {
+  background-color: #00ffe1;
+}
+section#section_purpose .col-sm-5.img {
+  background-image: url(https://scontent-tpe1-1.xx.fbcdn.net/v/t1.0-9/31956176_2038183473105081_6235589831372570624_n.png?_nc_cat=106&_nc_ht=scontent-tpe1-1.xx&oh=c7fa87186714d3a4106d52eb50971c9b&oe=5CD8C73B);
+  height: 400px;
+  background-size: cover;
+}
+section#section_purpose h2 {
+  margin-top: 130px;
+  padding: 0px 20px;
+}
+
+section#section_about img {
+  width: 100%;
+}
+section#section_about .img_wrap {
+  height: 150px;
+  overflow: hidden;
+}
